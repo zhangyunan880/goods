@@ -1,0 +1,79 @@
+html,body{
+    margin: 0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/iTab-0.jpg);
+    background-size: 100% 100%;
+
+}
+
+
+.loginresbox{
+    padding-top:40px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 350px;
+    background-color: #00000060;
+    position: absolute;
+    /* opacity: .8; */
+    left: 8%;
+    top: 50%;
+    transform: translate(-15%,-50%);    
+}
+.reg-box{
+    display: none;
+}
+.title-box{
+    height: 60px  ;
+    background: url(/assets/images/login_title.png) no-repeat center;
+}
+.layui-form{
+    padding: 0 50px;
+}
+
+.links{
+ float: right; 
+
+}
+#link_reg,#link_login{
+    color: #ffffff90;
+}
+#link_reg:hover,#link_login:hover{
+    color: white;
+}
+
+
+.layui-form-item{
+    position: relative;
+}
+.layui-icon{
+    position:absolute;
+    left: 10px;
+    top: 10px;
+}
+.layui-input{
+    padding-left: 30px;
+}
+.layui-btn{
+    background-image: linear-gradient(to right, #30cfd0, #330867); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
